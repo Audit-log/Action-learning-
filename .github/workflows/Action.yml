@@ -13,5 +13,5 @@ jobs:
       - name: Label issues
         uses: andymckay/labeler@1.0.2
         with:
-          add-labels: "documentation"
+          add-labels: "priority"
           repo-token: ${{ secrets.GITHUB_TOKEN }}
